@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script>
+      // let data = [ 20,40,60,5,10,70,80,90,] ;
+      // let item = 90 ; 
+      // let index = undefined
+      // for(i=0;i<data.lenght-1;i++){
+      //    // console.log(data[i]);
+      //    if (data[i]===item){ 
+      //       index = i
+      //       break
+      //    }
+      // }
+      // console.log(index); 
+      // console.log(data.indexOf(item));
+      data.splice(2,1) ;
+      console.log(data);
+      function searchEl (){
+         let data = [20,40,60,5,10,70,80,90,] ;
+         let itmes = 90 ; 
+         let index = undefined 
+         for(let i=0 ; i<data.lenght-1 ; i++){
+            if (data[i]===itme){
+               index=i
+               break ;
+            }
+         } 
+         console.log(index);
+      }
+   </script>
+</head>
+<body>
+   <input type="text" placeholder="entire value " id="searchEl"> 
+   <button onclick="searchEl()"> Search Elements </button>
+   
+</body>
+</html>
